@@ -14,4 +14,4 @@ while duration:
     elif duration:
         print(str(duration % 60) + " сек")  # Выводим результат в формате <s> сек
     else:
-        print("Выход")
+        print("Выход ")
