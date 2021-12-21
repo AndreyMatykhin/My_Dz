@@ -5,7 +5,7 @@ for el in src:
     if el in no_rep:
         rep.add(el)
         no_rep.remove(el)
-    elif not(el in rep):
+    elif not (el in rep):
         no_rep.add(el)
 result = [num for num in src if num in no_rep]
 print(result)
